@@ -4,4 +4,4 @@ Catmandu::Serializer::messagepack - A Catmandu::Serializer backend using Data::M
 
 # VERSION
 
-Version 0.0101
+Version 0.0102

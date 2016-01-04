@@ -11,11 +11,11 @@ Catmandu::Serializer::messagepack - A Catmandu::Serializer backend using Data::M
 
 =head1 VERSION
 
-Version 0.0101
+Version 0.0102
 
 =cut
 
-our $VERSION = '0.0101';
+our $VERSION = '0.0102';
 
 has mp => (
     is      => 'ro',

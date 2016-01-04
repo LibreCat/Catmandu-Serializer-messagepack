@@ -18,19 +18,30 @@ my %module_build_args = (
     "Nicolas Steenlant <nicolas.steenlant\@ugent.be>"
   ],
   "dist_name" => "Catmandu-Serializer-messagepack",
-  "dist_version" => "0.0101",
+  "dist_version" => "0.0102",
   "license" => "perl",
   "module_name" => "Catmandu::Serializer::messagepack",
   "recommends" => {},
   "recursive_test_files" => 1,
-  "requires" => {},
+  "requires" => {
+    "Catmandu" => 0,
+    "Data::MessagePack" => 0,
+    "MIME::Base64" => 0,
+    "Moo" => 0,
+    "perl" => "v5.10.1"
+  },
   "script_files" => [],
-  "test_requires" => {}
+  "test_requires" => {
+    "Test::Exception" => "0.32",
+    "Test::More" => "0.99"
+  }
 );
 
 
 my %fallback_build_requires = (
-  "Module::Build" => "0.28"
+  "Module::Build" => "0.28",
+  "Test::Exception" => "0.32",
+  "Test::More" => "0.99"
 );
 
 
